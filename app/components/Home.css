@@ -12,3 +12,15 @@
 .container a {
   font-size: 1.4rem;
 }
+
+.imgElectron {
+	width: 128px;
+	height: 128px;
+    -webkit-animation:spin 16s linear infinite;
+}
+
+@-webkit-keyframes spin { 
+	100% { 
+		-webkit-transform: rotate(360deg); 
+	} 
+}
